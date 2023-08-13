@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\Entities\Enemies\FX\1.png" />
+    <Content Include="assets\Entities\Enemies\FX\2.png" />
+    <Content Include="assets\Entities\Enemies\FX\3.png" />
+    <Content Include="assets\Entities\Enemies\FX\4.png" />
+    <Content Include="assets\Entities\Enemies\FX\5.png" />
+    <Content Include="assets\Entities\Enemies\FX\6.png" />
+    <Content Include="assets\Entities\Enemies\FX\7.png" />
+    <Content Include="assets\Entities\Enemies\FX\8.png" />
+    <Content Include="assets\Entities\Enemies\FX\9.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\1.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\10.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\11.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\12.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\13.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\14.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\15.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\2.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\3.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\4.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\5.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\6.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\7.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\8.png" />
+    <Content Include="assets\Entities\Enemies\NormalCar\9.png" />
+    <Content Include="assets\Entities\Enemies\PoliceCar\1.png" />
+    <Content Include="assets\Entities\Enemies\SportsCar\1.png" />
+    <Content Include="assets\Entities\Enemies\SportsCar\2.png" />
+    <Content Include="assets\Entities\Enemies\SportsCar\3.png" />
+    <Content Include="assets\Entities\Enemies\SportsCar\4.png" />
+    <Content Include="assets\Entities\Enemies\SportsCar\5.png" />
+    <Content Include="assets\Entities\Enemies\Truck\1.png" />
+    <Content Include="assets\Entities\Enemies\Truck\2.png" />
+    <Content Include="assets\Entities\Enemies\Truck\3.png" />
+    <Content Include="assets\Entities\Enemies\Truck\4.png" />
+    <Content Include="assets\Entities\Enemies\Truck\5.png" />
+    <Content Include="assets\Entities\Enemies\Truck\6.png" />
+    <Content Include="assets\Entities\Enemies\Truck\7.png" />
+    <Content Include="assets\Entities\Enemies\Van\1.png" />
+    <Content Include="assets\Entities\Enemies\Van\2.png" />
+    <Content Include="assets\Entities\Enemies\Van\3.png" />
+    <Content Include="assets\Entities\Enemies\Van\4.png" />
+    <Content Include="assets\Entities\Enemies\Van\5.png" />
+    <Content Include="assets\Entities\Player\hotdog.png" />
+    <Content Include="assets\font\AmongUs-Regular.ttf" />
+    <Content Include="assets\font\small_pixel.ttf" />
+    <Content Include="assets\font\Vraoum.ttf" />
+    <Content Include="assets\Level\barrier.png" />
+    <Content Include="assets\Level\highway.png" />
+    <Content Include="assets\Level\light.png" />
+    <Content Include="assets\Level\light_double.png" />
+    <Content Include="assets\Level\road.png" />
+    <Content Include="assets\Level\roadleft.png" />
+    <Content Include="assets\Level\roadright.png" />
+    <Content Include="assets\Level\sign_blue.png" />
+    <Content Include="assets\Level\sign_red.png" />
+    <Content Include="assets\UI\background.png" />
+    <Content Include="assets\UI\bounce.png" />
+    <Content Include="assets\UI\coins.png" />
+    <Content Include="assets\UI\health.png" />
+    <Content Include="assets\UI\highscore.png" />
+    <Content Include="assets\UI\YouDied.png" />
+    <Content Include="assets\UI\YouDiedBig.png" />
+    <Content Include="assets\UI\score.png" />
+    <Content Include="assets\UI\shield.png" />
+    <Content Include="assets\UI\shrink.png" />
+    <Content Include="assets\UI\speed.png" />
+    <Content Include="assets\UI\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="save\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\About.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\EnemyHandler.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\Level\GameTile.cpp" />
+    <ClCompile Include="src\Level\GameWorld.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\MainMenu.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\UI.cpp" />
+    <ClCompile Include="src\v2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\About.h" />
+    <ClInclude Include="src\Data.h" />
+    <ClInclude Include="src\Enemy.h" />
+    <ClInclude Include="src\EnemyHandler.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\GameManager.h" />
+    <ClInclude Include="src\Level\GameTile.h" />
+    <ClInclude Include="src\Level\GameWorld.h" />
+    <ClInclude Include="src\MainMenu.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\UI.h" />
+    <ClInclude Include="src\v2.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7CE8E0DD-D0FD-45D3-9BD8-C51ECAD57A0A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>KernModule</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <EnableModules>true</EnableModules>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-main-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
